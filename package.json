@@ -1,0 +1,22 @@
+{
+  "name": "opencode-v2-new-herdr-spaces",
+  "version": "1.0.0",
+  "description": "Open a new Herdr space and run configured shell commands from OpenCode V2.",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./tui": "./tui.js"
+  },
+  "files": [
+    "index.js",
+    "tui.js",
+    "herdr.js",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
